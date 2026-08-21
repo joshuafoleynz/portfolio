@@ -11,4 +11,5 @@ function App() {
   )
 }
 
+// Export App function
 export default App
