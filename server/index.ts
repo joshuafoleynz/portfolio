@@ -2,6 +2,6 @@ import server from './server.ts'
 
 const port = process.env.port || 3000
 
-server.listen(port, function () {
+server.listen(port, () => {
   console.log('Listening on port:', port)
 })
