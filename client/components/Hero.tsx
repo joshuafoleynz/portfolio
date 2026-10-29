@@ -5,8 +5,9 @@ function Hero() {
     <>
       <img src="/images/profileIcon.png" alt="Profile picture"></img>
       <h1>Joshua Foley</h1>
-      <h2>joshuafoleynz</h2>
-      <GitHubCalendar username="joshuafoleynz"></GitHubCalendar>
+      <div className="flex items-center justify-center">
+        <GitHubCalendar username="joshuafoleynz" />
+      </div>
     </>
   )
 }
