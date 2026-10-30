@@ -5,9 +5,16 @@ function Hero() {
     <>
       <img src="/images/profileIcon.png" alt="Profile picture"></img>
 
+      <div className="fixed top-25 left-1/2 -translate-x-1/2 z-50">
+        <h1>Hey I'm,</h1>
+      </div>
+
       <div className="fixed top-30 left-1/2 -translate-x-1/2 z-50">
-        <h1>Hello there I'm </h1>
         <h1>Joshua Foley</h1>
+      </div>
+
+      <div className="fixed top-65 left-1/2 -translate-x-1/2 z-50">
+        <h1>Github Contributions</h1>
       </div>
 
       <div className="flex items-center justify-center">
