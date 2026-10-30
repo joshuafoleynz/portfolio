@@ -2,20 +2,17 @@ import { GitHubCalendar } from 'react-github-calendar'
 
 function Hero() {
   return (
-    <>
-      <div className="fixed top-25 left-1/2 -translate-x-1/2 z-50">
+    <div className="flex flex-col items-center gap-4 pt-25 text-center">
+      <div>
         <h1>Hey I'm,</h1>
+        <h1>Joshua Foley.</h1>
       </div>
 
-      <div className="fixed top-30 left-1/2 -translate-x-1/2 z-50">
-        <h1>Joshua Foley</h1>
-      </div>
-
-      <div className="fixed top-65 left-1/2 -translate-x-1/2 z-50">
+      <div className="pt-25">
         <h1>Github Contributions</h1>
       </div>
 
-      <div className="fixed top-75 left-1/2 -translate-x-1/2 z-50">
+      <div>
         <GitHubCalendar username="joshuafoleynz" />
       </div>
 
@@ -31,7 +28,7 @@ function Hero() {
           alt="GitHub logo"
         ></img>
       </a>
-    </>
+    </div>
   )
 }
 

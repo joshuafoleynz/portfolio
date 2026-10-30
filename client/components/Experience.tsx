@@ -1,7 +1,5 @@
 function Experience() {
-  return (
-    <div className="fixed top-130 left-1/2 -translate-x-1/2">Experience</div>
-  )
+  return <div className="flex justify-center py-16">Experience</div>
 }
 
 export default Experience
