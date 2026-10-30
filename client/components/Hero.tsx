@@ -3,8 +3,6 @@ import { GitHubCalendar } from 'react-github-calendar'
 function Hero() {
   return (
     <>
-      <img src="/images/profileIcon.png" alt="Profile picture"></img>
-
       <div className="fixed top-25 left-1/2 -translate-x-1/2 z-50">
         <h1>Hey I'm,</h1>
       </div>
@@ -17,7 +15,7 @@ function Hero() {
         <h1>Github Contributions</h1>
       </div>
 
-      <div className="flex items-center justify-center">
+      <div className="fixed top-75 left-1/2 -translate-x-1/2 z-50">
         <GitHubCalendar username="joshuafoleynz" />
       </div>
 
