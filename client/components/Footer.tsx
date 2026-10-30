@@ -1,5 +1,5 @@
 function Footer() {
-  return <h1>Footer</h1>
+  return <div className="fixed top-135 left-1/2 -translate-x-1/2">Footer</div>
 }
 
 export default Footer
