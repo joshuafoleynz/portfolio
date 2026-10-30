@@ -20,6 +20,19 @@ function Hero() {
       <div className="flex items-center justify-center">
         <GitHubCalendar username="joshuafoleynz" />
       </div>
+
+      <a
+        className="fixed top-0 right-0 block rounded p-2 transition-opacity hover:opacity-75"
+        href="https://github.com/joshuafoleynz/portfolio"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="w-10"
+          src="images/GitHub_Logo.svg"
+          alt="GitHub logo"
+        ></img>
+      </a>
     </>
   )
 }
