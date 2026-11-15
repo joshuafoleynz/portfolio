@@ -9,7 +9,8 @@
     "dev:server": "tsx watch server/index.ts",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -21,9 +22,7 @@
     "react-dom": "^19.2.8",
     "react-github-calendar": "^5.0.9",
     "react-router": "^8.3.0",
-    "tailwindcss": "^4.3.3",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
-
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
