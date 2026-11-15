@@ -1,4 +1,4 @@
-import { GitHubCalendar } from 'react-github-calendar'
+import { GitHubCalendar } from "react-github-calendar";
 
 function Hero() {
   return (
@@ -29,7 +29,7 @@ function Hero() {
         ></img>
       </a>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

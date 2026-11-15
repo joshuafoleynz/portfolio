@@ -1,5 +1,5 @@
 // Import Outlet
-import { Outlet } from 'react-router'
+import { Outlet } from "react-router";
 
 // Create App function
 function App() {
@@ -7,8 +7,8 @@ function App() {
     <div className="min-h-screen bg-mist-400">
       <Outlet />
     </div>
-  )
+  );
 }
 
 // Export App function
-export default App
+export default App;
